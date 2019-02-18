@@ -27,6 +27,6 @@ Schemat sieci
 aby załączyć obrazek 
 
 ```markdown
-![alt schemat](https://github.com/adZborowski/sk-2019/blob/master/Schemat.png)
+![alt schemat](../Schemat.png)
 
 ```
