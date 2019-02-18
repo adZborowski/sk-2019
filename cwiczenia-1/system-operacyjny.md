@@ -26,7 +26,8 @@ Schemat sieci
 
 aby załączyć obrazek 
 
-```markdown
 ![alt schemat](../Schemat.png)
+```markdown
+
 
 ```
