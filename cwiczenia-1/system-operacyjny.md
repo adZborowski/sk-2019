@@ -24,10 +24,4 @@ Konfiguracja połączenia sieciowego
 Schemat sieci
 -------------
 
-aby załączyć obrazek 
-
 ![alt schemat](../Schemat.png)
-```markdown
-
-
-```
