@@ -13,8 +13,8 @@ ip
 -------------------------
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``route``    |                               | |
-|               |   ``ip route add``             | |
+|   ``route``    |                               | który wyświetla i umożliwia zmiany tablicy trasowania pakietów sieciowych. |
+|               |   ``ip route add``             | polecenie dodaje routing|
 
 
 Zadanie
