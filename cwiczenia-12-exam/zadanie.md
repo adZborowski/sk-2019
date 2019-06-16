@@ -109,22 +109,22 @@ ROZWIAZANIE
 
 ### Routing
 ---
-``ip route add default via 10.0.9.1``
-``ip route add default via 10.0.115.1``
-``ip route add default via 10.0.201.1``
+``ip route add default via 10.0.9.1``  
+``ip route add default via 10.0.115.1``  
+``ip route add default via 10.0.201.1``  
 
 
 ### Masquerade
 ---
 #### Serwer główny
-``sudo iptables -t nat -A POSTROUTING -s 188.156.220.160/28 -o enp0s3 -j MASQUERADE``
-``sudo iptables -t nat -A POSTROUTING -s 188.156.220.176/28 -o enp0s3 -j MASQUERADE``
-``sudo iptables-save | sudo tee /etc/iptables.sav``
+``sudo iptables -t nat -A POSTROUTING -s 188.156.220.160/28 -o enp0s3 -j MASQUERADE``  
+``sudo iptables -t nat -A POSTROUTING -s 188.156.220.176/28 -o enp0s3 -j MASQUERADE``  
+``sudo iptables-save | sudo tee /etc/iptables.sav``  
 
 ### DHCP
 ---
-``Instalacja DHCP: apt install isc-dhcp-server``
-``Odkomentowujemy: config DHCPDv4_CONF``  
+``Instalacja DHCP: apt install isc-dhcp-server``  
+``Odkomentowujemy: config DHCPDv4_CONF``    
 
 ### SALE
 ---
