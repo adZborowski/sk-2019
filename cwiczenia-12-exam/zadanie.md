@@ -99,7 +99,7 @@ ROZWIAZANIE
   
   ### Diagram:
   ---
-  ![diagram](diag.svg)
+  ![diagram](Diag.png)
   
   
   
